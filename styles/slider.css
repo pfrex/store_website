@@ -1,0 +1,16 @@
+.carousel-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+
+  margin: 5rem;
+}
+
+.slider-img {
+  cursor: pointer;
+  width: 30rem;
+  height: auto;
+  padding-bottom: 2rem;
+}

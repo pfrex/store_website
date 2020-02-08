@@ -1,0 +1,85 @@
+.full-card {
+  border: 0.3rem solid black;
+  margin: 2rem;
+  background-color: black;
+}
+
+.scaler {
+  width: 50%;
+}
+
+/*
+.scaler {
+  padding: 5rem;
+}
+
+@media only screen and (min-width: 1500px) {
+  /* For desktop: 
+  .scaler {
+    padding-left: 30rem;
+    padding-right: 30rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+  */
+/*
+.full-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background-color: darkkhaki;
+}
+*/
+
+.full-card image {
+  width: 100%;
+  height: auto;
+}
+
+.full-card h4 {
+  padding: 0.5rem;
+  margin-bottom: 0px;
+  color: black;
+  background-color: grey;
+}
+
+.full-card button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: #4caf50;
+  color: white;
+  border: 2px solid #4caf50; /* Green */
+}
+.full-card button:hover {
+  background-color: #91df93;
+}
+
+/*
+.card-flex {
+  text-align: center;
+}
+*/
+/*
+.card-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: rgb(247, 239, 130);
+}
+*/
+
+.description {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: left;
+  background-color: rgb(247, 239, 130);
+}
+
+#title {
+  text-align: left;
+}

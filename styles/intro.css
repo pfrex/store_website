@@ -1,0 +1,36 @@
+.full-car {
+  background-color: rgb(117, 105, 105);
+}
+
+/*
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-image: none;
+  background-color: hotpink;
+}
+*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 4rem;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 4rem;
+  color: black;
+}
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-caption {
+  color: black;
+}

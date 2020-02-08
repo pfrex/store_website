@@ -1,0 +1,9 @@
+.form-container {
+  background-color: var(--main-color3);
+  padding: 2rem;
+}
+
+.form-container h4 {
+  text-align: center;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,65 @@
+/*
+Define the CSS variables here
+Try with variable and with classes
+:root for global variables
+Change the values of these variables from JavaScript
+Use react-helmet to inject a head tag and change styles!
+*/
+
+/* 3 colors per theme */
+:root {
+  --main-color1: rgb(38, 43, 46);
+  --main-color2: tomato;
+  --main-color3: white;
+}
+
+.theme-buttons {
+  background-color: var(--main-color2);
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+#t-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* only the direct children and not all descendants with > */
+#t-group > button {
+  width: 75%;
+  margin: 1rem;
+}
+
+#c-button {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: #a81919;
+  color: white;
+  border: 2px solid #2f9c14; /* Green */
+}
+#c-button:hover {
+  background-color: #c94646;
+}
+#e-button {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: #0edee6;
+  color: white;
+  border: 2px solid #e057d5;
+}
+#e-button:hover {
+  background-color: #c1fdff;
+}
+
+#j-button {
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: #e21313;
+  color: #14669c;
+  border: 2px solid white;
+}
+#j-button:hover {
+  background-color: #c94646;
+}

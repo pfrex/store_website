@@ -1,0 +1,90 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  background-color: darkmagenta;
+}
+
+#google {
+  width: 100%;
+  max-width: 12rem;
+  height: auto;
+}
+
+#apple {
+  width: 100%;
+  max-width: 10rem;
+  height: auto;
+}
+
+.icons {
+  background-color: white;
+}
+.icons > img {
+  width: 100%;
+  max-width: 3rem;
+  height: auto;
+  margin: 1rem;
+}
+
+/* Very bottom stuff here */
+.f-bottom {
+  text-align: center;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.three {
+  text-align: center;
+}
+.three > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 0.5rem;
+}
+.three .vl {
+  border-left: 0.1rem solid white;
+  height: 3rem;
+  margin-right: 0.5rem;
+}
+
+#copy {
+  position: absolute;
+  left: 0;
+  padding-left: 0.3rem;
+}
+
+/* Link stuff below */
+.last-message {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--main-color2);
+}
+
+/*background-color: var(--main-color1);*/
+
+.act-footer {
+  background-color: var(--main-color1);
+  color: white;
+}
+
+.f-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.f-sub {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.f-sub > a {
+  color: white;
+  text-decoration: none;
+  margin: 0.3rem;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}

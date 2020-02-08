@@ -1,0 +1,26 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*
+.group {
+  margin: 3rem;
+  border: 0.3rem solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.border {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+*/
