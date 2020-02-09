@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/styles.css";
 import ScrollTop from "react-scrolltop-button";
+
 const Layout = props => (
   <div>
     <Header />
@@ -23,3 +24,4 @@ const Layout = props => (
 
 export default Layout;
 // Is the above props.children a good way to do things?
+// Or would it be better to use higher order functions?

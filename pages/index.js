@@ -1,9 +1,9 @@
-// Layout is the entry point
 import Layout from "../components/layout/Layout";
 import Intro from "../components/Intro";
 import Group from "../components/Group";
 import Theme from "../components/Theme";
 import Contact from "../components/Contact";
+import Noah from "../components/Noah";
 
 export default function Index() {
   return (
@@ -15,6 +15,7 @@ export default function Index() {
       <Group></Group>
       <Theme></Theme>
       <Contact></Contact>
+      <Noah></Noah>
     </Layout>
   );
 }

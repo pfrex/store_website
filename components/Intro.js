@@ -23,23 +23,4 @@ const Intro = props => {
   return content;
 };
 
-/*
-const Intro = props => {
-  let content = (
-    <Carousel>
-      <Carousel.Item>
-        <div className="carousel-contain">This is my carousel content</div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div>This is my carousel content</div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div>This is my carousel content</div>
-      </Carousel.Item>
-    </Carousel>
-  );
-
-  return content;
-};
-*/
 export default Intro;

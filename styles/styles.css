@@ -1,6 +1,8 @@
 html {
   margin: auto;
   background-color: var(--main-color3);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -23,9 +25,3 @@ Over-ride the base classes with a higher specificity id
   right: 1rem;
   z-index: 1000;
 }
-
-/*
-play with the colors on the navbar
-make different design choices for the lawyer website
-keep mastering React 
-*/

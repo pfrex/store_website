@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/theme.css";
 import { Helmet } from "react-helmet";
-// add functions which will change CSS custom properties!
+// add functions which will change CSS custom properties
 // inject the changes into the head of the document
 
 function RGBToHex(r, g, b) {
@@ -22,18 +22,18 @@ let start3 = RGBToHex(255, 255, 255);
 
 let christmasRed = "#a81919";
 let christmasGreen = "#2f9c14";
-let white = RGBToHex(255, 255, 255);
+//let white = RGBToHex(255, 255, 255);
 
 let easterPink = "#e057d5";
 let easterBlue = "#0edee6";
-let easter3 = RGBToHex(255, 255, 255);
+//let easter3 = RGBToHex(255, 255, 255);
 
 let fourthBlue = "#14669c";
 let fourthRed = "#e21313";
-let fourth3 = RGBToHex(255, 255, 255);
+//let fourth3 = RGBToHex(255, 255, 255);
 
 const Theme = props => {
-  // it will need to be state to React to the data change!
+  // it will need to be state to React to the data change
   const [color1, setColor1] = useState(start1);
   const [color2, setColor2] = useState(start2);
   const [color3, setColor3] = useState(start3);
