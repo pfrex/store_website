@@ -16,6 +16,10 @@ export default function Index() {
       <Theme></Theme>
       <Contact></Contact>
       <Noah></Noah>
+      <div id="last-message">
+        <h4>Store Name</h4>
+        <p>The last message, company motto, or call to action could go here.</p>
+      </div>
     </Layout>
   );
 }

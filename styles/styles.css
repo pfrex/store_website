@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  position: relative;
   background-color: var(--main-color3);
 }
 
@@ -15,6 +16,11 @@ body {
   padding: 2rem;
   font-size: 2rem;
   color: rgb(20, 75, 107);
+}
+#last-message {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--main-color2);
 }
 
 /*

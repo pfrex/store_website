@@ -4,10 +4,10 @@ footer {
 }
 
 #top-footer {
+  /*background-color: hotpink;*/
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 3rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom: 1rem;
 }
 
 #f-links {
@@ -15,12 +15,17 @@ footer {
   flex-direction: row;
 }
 
+#center {
+  margin: 0 auto;
+}
+
+/*
 .f-sub {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
-
+*/
 .social {
   display: flex;
   flex-direction: column;
@@ -61,10 +66,15 @@ footer {
 }
 
 /* Very bottom stuff here */
-.f-bottom {
+.bottom-footer {
   text-align: center;
   position: relative;
   padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 5.5rem;
 }
 
 .three {
@@ -81,26 +91,15 @@ footer {
   margin-right: 0.5rem;
 }
 
+/*
 #copy {
   position: absolute;
   left: 0;
   padding-left: 0.3rem;
 }
+*/
 
 /* Link stuff below */
-.last-message {
-  padding: 2rem;
-  text-align: center;
-  background-color: var(--main-color2);
-}
-
-/*background-color: var(--main-color1);*/
-
-.act-footer {
-  background-color: var(--main-color1);
-  color: white;
-}
-
 .f-links {
   display: flex;
   flex-direction: row;
@@ -121,4 +120,33 @@ footer {
 a:hover {
   color: white;
   text-decoration: underline;
+}
+
+/* Try with css grid and see if that makes this layout cleaner and more responsive  */
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+  #center {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #copy {
+    position: absolute;
+    left: 0;
+    padding-left: 0.3rem;
+  }
+  .bottom-footer {
+    text-align: center;
+    position: relative;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+  }
 }

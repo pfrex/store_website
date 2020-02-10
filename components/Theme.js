@@ -63,21 +63,23 @@ const Theme = props => {
   };
 
   let content = (
-    <div className="theme-buttons">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Grocery Store</title>
-        <style>
-          {`
+    <div>
+      <div className="theme-buttons">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Grocery Store</title>
+          <style>
+            {`
                         :root {
                             --main-color1: ${color1};
                             --main-color2: ${color2};
                             --main-color3: ${color3};
                         }
                         `}
-        </style>
-      </Helmet>
-      <h1>Tap the buttons below to switch the theme of the website!</h1>
+          </style>
+        </Helmet>
+        <h1>Tap the buttons below to switch the theme of the website!</h1>
+      </div>
       <div id="t-group">
         <button id="c-button" onClick={cPressed.bind(this)}>
           Christmas

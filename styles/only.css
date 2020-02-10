@@ -1,0 +1,61 @@
+#title {
+  font-size: 2rem;
+}
+
+#about .mFa {
+  color: red;
+}
+
+#about:hover .mFa {
+  color: rgb(235, 60, 60);
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.bDiv {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+.bDiv:hover {
+  background-color: grey;
+}
+
+#shop .mFa {
+  color: blue;
+}
+
+#shop:hover .mFa {
+  color: rgb(80, 136, 240);
+}
+
+#pharmacy .mFa {
+  color: rgb(255, 115, 0);
+}
+#pharmacy:hover .mFa {
+  color: rgb(223, 170, 109);
+}
+
+#orders .mFa {
+  color: purple;
+}
+#orders:hover .mFa {
+  color: rgb(180, 116, 240);
+}
+
+#recipes .mFa {
+  color: rgb(128, 58, 0);
+}
+
+#recipes:hover .mFa {
+  color: rgb(129, 90, 45);
+}
+
+.c-header {
+  background-color: var(--main-color1);
+}

@@ -2,6 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/styles.css";
+//import "../../styles/only.css";
 import ScrollTop from "react-scrolltop-button";
 
 const Layout = props => (
