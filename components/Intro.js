@@ -6,10 +6,7 @@ const Intro = props => {
   let content = (
     <Carousel className="full-car">
       <Carousel.Item>
-        <Slider
-          image={"/images/pic1.png"}
-          cont="This is a good deal on food!"
-        ></Slider>
+        <Slider image={"/images/pic1.png"} cont="Great deals!"></Slider>
       </Carousel.Item>
       <Carousel.Item>
         <Slider image={"/images/pic2.png"} cont="This is even better!"></Slider>

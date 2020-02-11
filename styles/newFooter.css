@@ -35,16 +35,12 @@ footer {
 }
 
 #google {
-  width: 100%;
-  max-width: 10rem;
-  height: auto;
   cursor: pointer;
+  width: 10rem;
+  height: 4rem;
 }
 
 #apple {
-  width: 100%;
-  max-width: 7.8rem;
-  height: auto;
   cursor: pointer;
 }
 .apps {

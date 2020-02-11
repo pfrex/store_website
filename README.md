@@ -1,6 +1,7 @@
 ## A store website
 
 A website project built with Next.js, Bootstrap, and plenty of custom CSS.
+Mobile first and responsive.
 
 ## Other packages used:
 
